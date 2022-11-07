@@ -19,7 +19,7 @@
                                 <h5 class="card-title">{{ $product->name }}</h5>
                                 <img class="card-img-top" src="{{$product->url_image}}" alt="Card image cap">
                                 <ul>
-                                   <li><p class="card-text"><u>Categoria</u>:{{$category->name}}</p></li>
+                                   <li><p class="card-text"><u>Category</u>:{{$category->name}}</p></li>
                                     <li><p class="card-text"><u>Description:</u> {{$product->description}}</p></li>
                                     <li><p class="card-text"><u>Priority: </u>{{$product->priority}}</p></li>
                                     <li><p class="card-text"><u>Value:</u> ${{number_format($product->value),4,".",","}}</p></li>
